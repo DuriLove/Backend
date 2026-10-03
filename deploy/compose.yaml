@@ -1,0 +1,26 @@
+services:
+  api:
+    build: ..
+    restart: unless-stopped
+    init: true
+    env_file: .env.production
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      DATABASE_FILE: /app/data/store.sqlite
+      LEGACY_DATA_FILE: ""
+      DATA_FILE: ""
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - backend-data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    stop_grace_period: 45s
+volumes:
+  backend-data:

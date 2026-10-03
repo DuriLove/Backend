@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-03T05:21:37.806Z",
+  "status": "passed",
+  "environment": "isolated_local_production",
+  "node": "v24.19.0",
+  "checks": [
+    "production_boot_health",
+    "swagger_disabled",
+    "real_worker_processes_job_without_provider_storage",
+    "restart_preserves_user_token_and_job",
+    "online_consistent_backup",
+    "restored_snapshot_excludes_post_backup_writes",
+    "restored_account_login"
+  ],
+  "externalDeployment": false,
+  "providerCalls": 0,
+  "userDataTouched": false
+}

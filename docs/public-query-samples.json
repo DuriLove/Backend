@@ -1,0 +1,72 @@
+[
+  {
+    "sampleId": "seoul-city-hall",
+    "query": "서울특별시청",
+    "expectedProvince": "서울특별시",
+    "expectedDistrict": "중구",
+    "evidence": "https://www.seoul.go.kr/seoul/map.do"
+  },
+  {
+    "sampleId": "busan-city-hall",
+    "query": "부산광역시청",
+    "expectedProvince": "부산광역시",
+    "expectedDistrict": "연제구",
+    "evidence": "https://www.busan.go.kr/minwon/index"
+  },
+  {
+    "sampleId": "daegu-dongin",
+    "query": "대구광역시청 동인청사",
+    "expectedProvince": "대구광역시",
+    "expectedDistrict": "중구",
+    "evidence": "https://www.daegu.go.kr/index.do?menu_id=00935860"
+  },
+  {
+    "sampleId": "daegu-sangyeok",
+    "query": "대구광역시청 산격청사",
+    "expectedProvince": "대구광역시",
+    "expectedDistrict": "북구",
+    "evidence": "https://www.daegu.go.kr/index.do?menu_id=00935860"
+  },
+  {
+    "sampleId": "incheon-city-hall",
+    "query": "인천광역시청",
+    "expectedProvince": "인천광역시",
+    "expectedDistrict": "남동구",
+    "evidence": "https://www.incheon.go.kr/IC040227"
+  },
+  {
+    "sampleId": "daejeon-city-hall",
+    "query": "대전광역시청",
+    "expectedProvince": "대전광역시",
+    "expectedDistrict": "서구",
+    "evidence": "https://www.daejeon.go.kr/sel/index.do"
+  },
+  {
+    "sampleId": "sejong-council",
+    "query": "세종특별자치시의회",
+    "expectedProvince": "세종특별자치시",
+    "expectedDistrict": null,
+    "evidence": "https://council.sejong.go.kr/"
+  },
+  {
+    "sampleId": "suwon-city-hall",
+    "query": "수원시청",
+    "expectedProvince": "경기도",
+    "expectedDistrict": "수원시",
+    "evidence": "https://www.suwon.go.kr/index.do"
+  },
+  {
+    "sampleId": "seongnam-city-hall",
+    "query": "성남시청",
+    "expectedProvince": "경기도",
+    "expectedDistrict": "성남시",
+    "evidence": "https://www.seongnam.go.kr/cn040104"
+  },
+  {
+    "sampleId": "paldal-office",
+    "query": "팔달구청",
+    "expectedProvince": "경기도",
+    "expectedDistrict": "수원시",
+    "evidence": "https://paldal.suwon.go.kr/"
+  }
+]

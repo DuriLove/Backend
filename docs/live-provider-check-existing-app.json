@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-03T04:36:57.849Z",
+  "mode": "live_connectivity_only",
+  "sharedInputSamples": 0,
+  "containsProviderResponseData": false,
+  "rows": [
+    {
+      "provider": "kakao",
+      "host": "dapi.kakao.com",
+      "status": "connected",
+      "httpStatus": 200,
+      "httpCalls": 1,
+      "resultCount": 1,
+      "elapsedMs": 158
+    },
+    {
+      "provider": "naver",
+      "host": "naverapihub.apigw.ntruss.com",
+      "status": "not_configured",
+      "httpCalls": 0
+    }
+  ]
+}

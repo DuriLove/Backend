@@ -1,0 +1,3 @@
+require('dotenv').config({quiet:true});const {DatabaseSync,backup}=require('node:sqlite');const {existsSync,chmodSync}=require('node:fs');const {resolve}=require('node:path');
+(async()=>{const source=resolve(process.env.DATABASE_FILE||'data/store.sqlite'),target=process.argv[2];if(!target||!existsSync(source)||existsSync(resolve(target)))throw new Error('Use npm run backup -- /new/backup.sqlite; source must exist and destination must not exist');
+ const db=new DatabaseSync(source,{readOnly:true});try{await backup(db,resolve(target));chmodSync(resolve(target),0o600);console.log('Consistent SQLite backup completed.');}finally{db.close();}})().catch(e=>{console.error(e.message);process.exitCode=1;});
