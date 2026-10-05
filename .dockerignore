@@ -1,0 +1,11 @@
+**
+!package.json
+!package-lock.json
+!nest-cli.json
+!tsconfig.json
+!tsconfig.build.json
+!src
+!src/**
+!scripts
+!scripts/backup.cjs
+!Dockerfile

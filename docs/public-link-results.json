@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-03T05:38:00.204Z",
+  "mode": "live_public_institution_links",
+  "mobileSamples": 0,
+  "providerSearchCalls": 0,
+  "rows": [
+    {
+      "sampleId": "public-terminal-link",
+      "url": "https://naver.me/F0pLBk2Z",
+      "evidence": "https://www.kkot.ac.kr/download/BOARD_ATTACH?storageNo=22334",
+      "expected": "PLACE_NAME_REQUIRED",
+      "actual": "PLACE_NAME_REQUIRED",
+      "passed": true,
+      "elapsedMs": 166
+    },
+    {
+      "sampleId": "public-form-not-map",
+      "url": "https://naver.me/5LHmTncw",
+      "evidence": "https://gyeongju.museum.go.kr/kor/html/sub03/0302.html?mng_no=1407&mode=V",
+      "expected": "UNSAFE_URL",
+      "actual": "UNSAFE_URL",
+      "passed": true,
+      "elapsedMs": 29
+    }
+  ]
+}
