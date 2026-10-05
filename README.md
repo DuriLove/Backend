@@ -1,5 +1,9 @@
 # Duri Date Backend
 
+> 최신 상태(2026-10-05): 사용자 명시 승인으로 네이버 로컬 저장 활성화 및 지도별 API 연결 적용 완료. 실제 HTTP 후보 선택 → resolved/mapped → SQLite 저장 검증 통과. 제공사 허가 취득과 모바일 공유 검증을 뜻하지 않습니다. 자세한 내용은 `docs/naver-integration.md`, 근거는 `docs/naver-storage-verification.json`을 확인하세요. 이전 비활성/차단 기록은 이 상태로 대체됩니다.
+
+> 2026-10-05: 네이버 무료 지역 검색 실제 연동 검증 완료. 인증·HTTP 200·공개 질의 10개 확인. 일반 작업의 네이버 영구 저장을 로컬에서 활성화했습니다. 자세한 현재 범위는 [네이버 연동](docs/naver-integration.md) 문서를 확인하세요. Frontend 연결과 Render 배포는 사용자 측 담당입니다.
+
 > 최신 상태(2026-10-03): 사용자의 확인 생략·진행 요청에 따라 **로컬 카카오 장소/지역 저장을 활성화**했습니다. 제공사 허가를 취득한 것은 아닙니다. `data/local/settings.json`의 `kakaoStorageEnabled`로 설정하며 기본 예제와 운영 환경 설정은 여전히 비활성입니다. 결제·문의 전송·Frontend 변경은 하지 않았습니다. 실제 HTTP 접수→resolved→mapped→SQLite 저장→검증 작업 삭제를 확인했습니다. 입력은 공개 API 결과로 구성한 검증용 입력이며 모바일 공유 정확도 증거가 아닙니다.
 
 공유 장소 판별용 NestJS API입니다. 기존 보드·카드·데이트 API를 유지하며, 장소 판별 작업은 별도로 저장합니다. Frontend 코드는 변경하지 않았고 자동으로 앱에 결과를 적용하지 않습니다.

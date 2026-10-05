@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-05T06:11:13.985Z",
+  "status": "passed",
+  "mode": "synthetic_link_live_naver_local_http",
+  "mobileSharedSamples": 0,
+  "providerHttpCalls": 1,
+  "acceptedHttp": 202,
+  "candidateStatus": "needs_confirmation",
+  "selectedStatus": "resolved",
+  "provider": "naver",
+  "regionStatus": "mapped",
+  "sqliteResultPersisted": true,
+  "testJobDeleted": true,
+  "providerPermissionVerified": false,
+  "paymentAction": false,
+  "verificationAttempts": 3,
+  "totalProviderCallsThisVerification": 3
+}
