@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-03T08:19:04.564Z",
+  "mode": "constructed_input_live_kakao_local_http",
+  "mobileSharedSamples": 0,
+  "acceptedHttp": 202,
+  "status": "resolved",
+  "regionStatus": "mapped",
+  "sqliteResultPersisted": true,
+  "testJobDeleted": true,
+  "providerPermissionVerified": false,
+  "paymentAction": false
+}
